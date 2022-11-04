@@ -1,0 +1,21 @@
+.Product {
+    padding: 0 5rem;
+}
+
+.product__heading {
+
+    margin-top: 1rem;
+    color: var(--color-dark);
+    font-size: 4rem;
+    font-weight: var(--weight-heading);
+    letter-spacing: 1rem;
+}
+
+.product__grid {
+    gap: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

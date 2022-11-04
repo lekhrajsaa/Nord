@@ -1,0 +1,21 @@
+:root {
+  --color-dark: #0F1633;
+  --color-accent: #ff5367;
+  --font-heading: 'Raleway';
+  --weight-heading: 600;
+  --font-body: 'Raleway';
+  --weight-body: 600;
+  --font-nav: 'Raleway';
+  --weight-nav: 400;
+  --font-logo: 'Ms Madi';
+  --font-pricing: 'Roboto';
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}

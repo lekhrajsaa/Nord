@@ -1,0 +1,35 @@
+.LoginModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a6;
+    position: fixed;
+    z-index: 10000000;
+    top: 4rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.loginModal__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 0.2rem;
+    box-shadow: 4px 4px 11px -3px rgba(0, 0, 0, 0.25);
+    gap: 2rem;
+    background-color: white;
+}
+
+.loginModal__close {
+    cursor: pointer;
+    top: 1rem;
+    right: 1rem;
+    position: absolute;
+    font-size: 1.5rem;
+    color: red;
+}
